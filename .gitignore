@@ -34,3 +34,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore environment files  
+.env.local  
+.env  
+.env.production  
+
+# Ignore Next.js build files  
+.next/  
+out/  
+
+# Ignore Node modules  
+node_modules/  
+
+# Ignore Hasura metadata  
+hasura/metadata/
+hasura/migrations/
